@@ -13,7 +13,7 @@ struct SinhVien {
 
 // Chèn cuối danh sách
 void chenSV(SinhVien **first, string hoTen, string mssv, int namSinh, float gpa) {
-    SinhVien *s = new SinhVien;       // Dùng new
+    SinhVien *s = new SinhVien;       
     s->hoTen = hoTen;
     s->mssv = mssv;
     s->namSinh = namSinh;
@@ -97,3 +97,4 @@ int main() {
     in_DS(DS);cout<<endl;
     return 0;
 }
+
