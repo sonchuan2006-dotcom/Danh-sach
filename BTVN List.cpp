@@ -83,10 +83,10 @@ void SapXep(SinhVien *first) {
 int main() {
     SinhVien *DS = nullptr;
 
-    chenSV(&DS, "Dat",  "202414345", 2006, 3.1);
-    chenSV(&DS, "Son",  "202414346", 2006, 3.4);
-    chenSV(&DS, "Minh", "202414347", 2006, 2.9);
-    chenSV(&DS, "Tung", "202414348", 2006, 4.0);
+    chenSV(&DS, "Dat",  "202414345", 2006, 4.0);
+    chenSV(&DS, "Son",  "202414346", 2006, 2.9);
+    chenSV(&DS, "Minh", "202414347", 2006, 3.9);
+    chenSV(&DS, "Tung", "202414348", 2006, 2.5);
     in_DS(DS);cout<<endl;
     cout << "\nSo luong SV: " << demDS(DS) << endl;
     cout << "SV co GPA > 3.2: " << SV_Gioi(DS) << endl;
@@ -97,4 +97,5 @@ int main() {
     in_DS(DS);cout<<endl;
     return 0;
 }
+
 
